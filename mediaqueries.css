@@ -1,0 +1,58 @@
+@media screen and (max-width:700px) {
+
+    .toggle {
+        display: block;
+    }
+
+    .slide {
+        display: block;
+    }
+
+    .nav-links li a {
+        display: none;
+    }
+
+    .logo {
+
+        font-size: 20px;
+        font-weight: 800;
+    }
+
+    .home-text p {
+        text-transform: uppercase;
+        font-size: 20px;
+        font-weight: 600;
+    }
+
+    span {
+        font-size: .5rem;
+        color: rgb(205, 224, 233)
+    }
+
+    .button {
+        font-size: 10px;
+    }
+
+    .about-text h1 {
+
+        font-size: 40px;
+        font-weight: 900;
+
+    }
+
+
+    .about-text p {
+        font-size: 10px;
+    }
+
+
+
+    
+    .row {
+        
+        flex-direction: column;
+    }
+
+
+
+}
