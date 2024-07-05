@@ -10,33 +10,33 @@ body {
 }
 
 .slide {
-    
+
     height: 70%;
     width: 300px;
-    position: absolute ;
+    position: absolute;
     background-color: #a5cfdb;
     transition: 0.5s ease;
     padding: 10px 0;
     padding-right: 30px;
-    z-index:    1;
+    z-index: 1;
     transform: translateX(-400px);
     display: none;
     margin-left: 20px;
     margin-top: 20px;
-    border-radius: 30px ;
-    
-    
+    border-radius: 30px;
+
+
 }
 
 
 .slide ul li {
-    
+
     list-style: none;
     padding-top: 60px;
 }
 
 .slide ul li a {
-    
+
     color: #413f41;
     font-weight: 500;
     padding: 5px 0;
@@ -51,7 +51,7 @@ body {
 .slide ul li a:hover {
     color: #fafafa;
     background-color: #066077;
-    
+
 }
 
 
@@ -59,7 +59,7 @@ body {
 input {
     display: none;
     visibility: hidden;
-    
+
 }
 
 .toggle {
@@ -136,7 +136,7 @@ header {
     background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(Images/Background4.jpg);
     background-position: center;
     background-size: cover;
-    
+
 
 
 }
@@ -164,6 +164,7 @@ ul {
 .nav-links li {
     padding-left: 30px;
 }
+
 .nav-links li a {
 
 
@@ -444,3 +445,5 @@ span {
     transform: translateY(-15px);
 
 }
+
+
