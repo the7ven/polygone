@@ -45,14 +45,40 @@
         font-size: 10px;
     }
 
+    .contacts h2 {
+        font-size: 40px;
+        align-content: center;
+    }
 
+    .contacts {
+        align-content: center;
 
-    
+    }
+
+    .container {
+
+        padding-top: 50px;
+        margin-left: 5px;
+        margin-right: 5px;
+        padding-bottom: 50px;
+    }
+
+    input, textarea {
+        width: 40%;
+    }
+
     .row {
-        
+
         flex-direction: column;
     }
 
+    .container {
+        padding: 20px;
+    }
 
+    .contact-wrapper {
 
+        grid-template-columns: 1fr;
+
+    }
 }

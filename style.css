@@ -5,9 +5,7 @@
 
 }
 
-body {
-    box-sizing: border-box;
-}
+
 
 .slide {
 
@@ -455,20 +453,22 @@ span {
 
 
 .contacts {
-    min-height: 50vh;
+
     text-align: center;
     background-color: #066077;
     margin-right: 20px;
     margin-left: 20px;
     margin-bottom: 50px;
     border-radius: 30px;
+    padding-top: 2rem;
+
 }
 
 .container {
     padding-top: 50px;
-    width: 100vh;
-    margin: auto;
-    padding-bottom: 30px;
+    margin-left: 15rem;
+    margin-right: 15rem;
+    padding-bottom: 50px;
 }
 
 .container h2 {
@@ -498,7 +498,7 @@ span {
 }
 
 input, textarea {
-    width: 100%;
+    width: 70%;
     padding: 12px;
     border-radius: 8px;
     border: none;
@@ -542,4 +542,80 @@ button:hover {
     font-size: 20px;
     font-weight: 600;
 
+}
+
+
+
+
+/* footer section */
+
+
+footer {
+    position: relative;
+    width: 100%;
+    background: #000000;
+    min-height: 100px;
+    padding: 20px 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+footer .social_icon,
+footer .menu ul {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+    flex-wrap: wrap;
+    color: #ffffff;
+}
+
+footer .social_icon li,
+footer .menu ul li {
+    list-style: none;
+
+}
+
+footer .social_icon li a {
+
+
+    margin: 0 10px;
+    padding: 3px;
+    display: inline-block;
+    transition: 0.5s;
+    border: white solid 1px;
+    background-color: #c8dbec;
+    margin-top: 20px;
+    border-radius: 50%;
+
+}
+
+footer .social_icon li a:hover {
+    color: grey;
+    transform: translateY(-10px);
+}
+
+footer .menu ul li a {
+    font-size: 1.5em;
+    margin: 0 25px;
+    display: inline-block;
+    color: #ffffff;
+    margin-top: 20px;
+
+
+}
+
+footer p {
+    font-size: 1.5em;
+    color: #418ed6;
+}
+
+.bottom {
+    margin-top: 20px;
+    bottom: 30px;
+    font-size: 1em;
+    color: red;
 }
