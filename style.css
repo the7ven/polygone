@@ -49,6 +49,7 @@
 .slide ul li a:hover {
     color: #fafafa;
     background-color: #066077;
+    width: 100%;
 
 }
 
@@ -131,7 +132,7 @@ input:checked~.slide {
 header {
     min-height: 100vh;
     width: 100%;
-    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(Images/Background4.jpg);
+    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(Images/BG3.jpg);
     background-position: center;
     background-size: cover;
 
@@ -238,7 +239,7 @@ span {
     display: inline-block;
     text-decoration: none;
     color: white;
-    border: 1px solid rgb(106, 124, 206);
+    border: 1px solid rgb(253, 253, 253);
     padding: 12px 34px;
     font-size: 20px;
     font-weight: 600;
@@ -292,7 +293,7 @@ span {
     width: 100%;
     text-align: center;
     padding-top: 100px;
-    background-image: url(Images/BG1.jpg);
+    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(Images/BG5\ \(2\).jpg);
     background-size: cover;
     background-position: center;
     position: relative;
@@ -301,8 +302,8 @@ span {
 }
 
 .services h1 {
-    font-size: 80px;
     font-weight: 900;
+    font-size: 5rem;
 }
 
 
@@ -450,7 +451,7 @@ span {
     min-height: 100vh;
     width: 100%;
     text-align: center;
-    background: url(Images/BG2.jpg);
+    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(Images/BG2.jpg);
     background-position: center;
     background-size: cover;
     position: relative;
@@ -476,7 +477,7 @@ span {
 
 }
 
-.home img{
+.home img {
     width: 100%;
 }
 
@@ -485,6 +486,12 @@ span {
     box-shadow: 0 0 20px white;
     transform: translateY(-15px);
 
+}
+
+.btn{
+    padding-bottom: 100px;
+    align-content: center;
+    
 }
 
 
@@ -497,15 +504,15 @@ span {
 
     text-align: center;
     background-color: #066077;
-    margin-right: 20px;
-    margin-left: 20px;
-    margin-bottom: 50px;
-    border-radius: 30px;
-    padding-top: 2rem;
+    
+    
+    
+
+    
 
 }
 
-.container {
+.container1 {
     padding-top: 50px;
     margin-left: 15rem;
     margin-right: 15rem;
@@ -592,6 +599,8 @@ button:hover {
 
 
 footer {
+
+    
     position: relative;
     width: 100%;
     background: #000000;

@@ -24,11 +24,7 @@
         font-weight: 600;
     }
 
-    span {
-        font-size: 1rem;
-        color: rgb(205, 224, 233)
-    }
-
+   
     .button {
         font-size: 10px;
     }
@@ -72,7 +68,7 @@
         flex-direction: column;
     }
 
-    .container {
+    .container1 {
         padding: 20px;
     }
 
